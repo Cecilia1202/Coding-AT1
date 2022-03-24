@@ -1,0 +1,92 @@
+body {margin: 0px;
+    font-size: 18px;
+    font-family: 'Baloo Chettan', cursive;
+    font-weight: 400;
+background-color: #dfdfdf}
+
+h1, h2, {font-weight: 700;}
+
+
+nav {background-color:#B1ADAD;}
+nav ul {display:flex; 
+    list-style: none;
+margin: 
+    
+    0px; font-size: 1.3em}
+
+nav a {text-decoration:none;padding: 10px; display:white; color: white;}
+.push {margin-right: auto;}
+
+nav a:hover {color:white;background-color:  #07bad8}
+
+
+
+/* the x is simply making the line of css invalid - the browser just jumps to the next line - I can delete the x to make it work again*/
+header {height: 40vh; 
+    background-color: #07bad8;
+   
+    text-align:center;
+       display: flex;
+       flex-direction:column;
+       text-align: center;
+       justify-content: center;
+       animation-name: changebackground-color;
+       animation-duration: 4s;
+   
+}
+ @keyframes changebackground-color {
+  from {background-color: #B1ADAD;}
+  to {background-color: #07bad8;}
+
+}
+
+header h1 {color:white;}
+
+
+.whiteText {color: white;}
+
+
+h1 {font-weight: 900; font-size: 3em;}
+
+
+main {display:flex; 
+    flex-wrap:wrap; 
+    justify-content: center; 
+    padding-top: 40px; 
+}
+
+section {background-color:antiquewhite; text-align: center;}
+
+section div {display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    min-height: 400px;
+}
+
+   
+
+article { margin: 20px;
+    max-height: 350px;
+    background-color:white;
+    padding: 20px;
+}
+
+article img {width: 280px}
+
+section article {max-width: 500px;
+    justify-content: center;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #07bad8;
+    height: 50px;
+   
+    
+}
+
+
